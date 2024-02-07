@@ -196,7 +196,7 @@
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="8000"> Engine Tier 3 - $8000
+      <input type="checkbox" class="menu-item" data-price="7000"> Engine Tier 3 - $7000
       <input type="number" class="quantity" value="1" min="1">
     </label>
 	
@@ -210,7 +210,7 @@
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="5000"> Suspension Tier 3 - $5000
+      <input type="checkbox" class="menu-item" data-price="4000"> Suspension Tier 3 - $4000
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
@@ -221,11 +221,11 @@
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="4000"> Transmission Tier 2 - $4000
+      <input type="checkbox" class="menu-item" data-price="3000"> Transmission Tier 2 - $3000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="7000"> Transmission Tier 3 - $7000
+      <input type="checkbox" class="menu-item" data-price="6000"> Transmission Tier 3 - $6000
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
@@ -236,11 +236,11 @@
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="5000"> Brakes Tier 2 - $5000
+      <input type="checkbox" class="menu-item" data-price="3000"> Brakes Tier 2 - $3000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="8000"> Brakes Tier 3 - $8000
+      <input type="checkbox" class="menu-item" data-price="7000"> Brakes Tier 3 - $7000
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
@@ -253,22 +253,22 @@
 	
 	<h3>Repairs</h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="1400"> Standard Repair (D-S Class) - $1400
+      <input type="checkbox" class="menu-item" data-price="1400"> Standard Repair (D-A Class) - $1200
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="1400"> Standard Repair (S Class) - $2200
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
 	
 	<h3>Misc Items</h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="300"> Single Lockpick - $300 
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
       <input type="checkbox" class="menu-item" data-price="1500"> Adavanced Lockpick - $1500
       <input type="number" class="quantity" value="1" min="1">
     </label>
 	<label>
-      <input type="checkbox" class="menu-item" data-price="350"> Basic Repair Kit - $350
+      <input type="checkbox" class="menu-item" data-price="500"> Basic Repair Kit - $500
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
@@ -276,7 +276,7 @@
       <input type="number" class="quantity" value="1" min="1">
     </label>
 	<label>
-      <input type="checkbox" class="menu-item" data-price="500"> Cleaning Kit - $500
+      <input type="checkbox" class="menu-item" data-price="750"> Cleaning Kit - $750
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
@@ -284,36 +284,18 @@
       <input type="number" class="quantity" value="1" min="1">
     </label>
 	<label>
-      <input type="checkbox" class="menu-item" data-price="2000"> Fantastic Wax (3-4 days) - $2000
+      <input type="checkbox" class="menu-item" data-price="1500"> Fantastic Wax (3-4 days) - $1500
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
 
-    <h3>Discounted repairs</h3>
 
-    <label>
-      <input type="checkbox" class="menu-item exclude-discount" data-price="1000"> EMS, LEO, DOC, DOJ, UWU - 1000$
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
+
 
 
 
  
-    <h3>Towing</h3>
 
-    <label>
-      <input type="checkbox" class="menu-item exclude-discount" data-price="300"> City - 300$
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item exclude-discount" data-price="700"> Sandy - 700$
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item exclude-discount" data-price="1000"> Poleto - 1000$
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-	
 	
 	
 	
