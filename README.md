@@ -109,12 +109,12 @@
 
   // Form Submission Logic for Spreadsheet
   $.ajax({
-    url: "https://api.apispreadsheets.com/data/x7sLaGzD3NFGIVW9/",
+    url: "https://api.apispreadsheets.com/data/WNeopoQS6tNKusWn/",
     type: "post",
     data: formData,
     headers: {
-      accessKey: "696626e7e09412238016fe2b4041b89c",
-      secretKey: "1f3c76e9b958aaf6e23406246cf7eb35",
+      accessKey: "171832037eba9b2ee773831163d93ce1",
+      secretKey: "171804dce4a29def000198493ba872ff",
       "Content-Type": "application/x-www-form-urlencoded",
     },
     success: function () {
@@ -145,7 +145,7 @@
 
   // Form Submission Logic for Discord webhook
   $.ajax({
-    url: "https://discord.com/api/webhooks/1150577363499884695/q-F7MVW_UPghvq1ZJFfxDoOYF-PHsTH5AtMDOcqsSPc3VoapWEtWycynZAEAQnKUr6v8", // Replace with your Discord webhook URL
+    url: "", // Replace with your Discord webhook URL
     type: "post",
     contentType: "application/json",
     data: JSON.stringify(discordData),
