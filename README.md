@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Menu Calculator and Form Submission</title>
+  <title>Shop menu</title>
   <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
   <style>
     body, h2, form, label, p, button, select, input {
@@ -183,7 +183,7 @@
 </head>
 <body>
 
-  <h2>Benny's</h2>
+  <h2>6sr</h2>
 
   <form id="menuForm">
   <h3>Engine Upgrades</h3>
