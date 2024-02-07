@@ -128,7 +128,7 @@
 
   // Prepare data for Discord webhook
   const discordData = {
-    username: "Benny's Receipts",
+    username: "Receipts",
     content: `New order submitted by ${employeeName}`,
     embeds: [{
       title: "Order Details",
@@ -145,7 +145,7 @@
 
   // Form Submission Logic for Discord webhook
   $.ajax({
-    url: "", // Replace with your Discord webhook URL
+    url: "https://discord.com/api/webhooks/1204921942273040415/cSOXJeC8ZcBNwVm69kH-KrepTj_FOE2sgjV1u7TSh0nJuAE-Pak8MWrhRwrEwBQKyrRs", // Replace with your Discord webhook URL
     type: "post",
     contentType: "application/json",
     data: JSON.stringify(discordData),
