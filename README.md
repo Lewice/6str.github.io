@@ -183,7 +183,7 @@
 </head>
 <body>
 
-  <h2>6sr</h2>
+  <h2>6str Menu</h2>
 
   <form id="menuForm">
   <h3>Engine Upgrades</h3>
