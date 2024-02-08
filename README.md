@@ -253,11 +253,11 @@
 	
 	<h3>Repairs</h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="1400"> Standard Repair (D-A Class) - $1200
+      <input type="checkbox" class="menu-item" data-price="1200"> Standard Repair (D-A Class) - $1200
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="1400"> Standard Repair (S Class) - $2200
+      <input type="checkbox" class="menu-item" data-price="2200"> Standard Repair (S Class) - $2200
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
