@@ -199,6 +199,10 @@
       <input type="checkbox" class="menu-item" data-price="7000"> Engine Tier 3 - $7000
       <input type="number" class="quantity" value="1" min="1">
     </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="12500"> Engine Tier 4 - $12,500
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
 	
 	<h3>Suspension Upgrades</h3>
     <label>
@@ -211,6 +215,10 @@
     </label>
     <label>
       <input type="checkbox" class="menu-item" data-price="4000"> Suspension Tier 3 - $4000
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="7000"> Suspension Tier 4 - $7000
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
@@ -228,6 +236,10 @@
       <input type="checkbox" class="menu-item" data-price="6000"> Transmission Tier 3 - $6000
       <input type="number" class="quantity" value="1" min="1">
     </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="9500"> Transmission Tier 4 - $9500
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
 
 	
 	<h3>Brake Upgrades</h3>
@@ -243,6 +255,10 @@
       <input type="checkbox" class="menu-item" data-price="7000"> Brakes Tier 3 - $7000
       <input type="number" class="quantity" value="1" min="1">
     </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="10000"> Brakes Tier 3 - $10,000
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
 
 	
 	<h3>Turbo</h3>
@@ -252,6 +268,10 @@
     </label>
 	
 	<h3>Repairs</h3>
+ <label>
+      <input type="checkbox" class="menu-item" data-price="500"> Body Repair - $500
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
     <label>
       <input type="checkbox" class="menu-item" data-price="1200"> Standard Repair (D-A Class) - $1200
       <input type="number" class="quantity" value="1" min="1">
@@ -260,11 +280,24 @@
       <input type="checkbox" class="menu-item" data-price="2200"> Standard Repair (S Class) - $2200
       <input type="number" class="quantity" value="1" min="1">
     </label>
+    
 
 	
 	<h3>Misc Items</h3>
+ <label>
+      <input type="checkbox" class="menu-item" data-price="750"> Lockpick - $750
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
     <label>
       <input type="checkbox" class="menu-item" data-price="1500"> Adavanced Lockpick - $1500
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="15000"> NOS - $15,000
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="25000"> Harness - $25,000
       <input type="number" class="quantity" value="1" min="1">
     </label>
 	<label>
