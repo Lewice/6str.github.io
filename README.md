@@ -55,7 +55,7 @@
   });
 
   // Change commission rate from 5% to 10%
-  const commission = total * 0.10;
+  const commission = total * 0.15;
 
   document.getElementById('total').innerText = total.toFixed(2);
   document.getElementById('commission').innerText = commission.toFixed(2);
@@ -188,136 +188,110 @@
   <form id="menuForm">
   <h3>Engine Upgrades</h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="1000"> Engine Tier 1 - $1000
+      <input type="checkbox" class="menu-item" data-price="375"> Engine Tier 1 - $375
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="3000"> Engine Tier 2 - $3000
+      <input type="checkbox" class="menu-item" data-price="500"> Engine Tier 2 - $500
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="7000"> Engine Tier 3 - $7000
+      <input type="checkbox" class="menu-item" data-price="750"> Engine Tier 3 - $750
       <input type="number" class="quantity" value="1" min="1">
     </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="12500"> Engine Tier 4 - $12,500
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
+
 	
 	<h3>Suspension Upgrades</h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="1000"> Suspension Tier 1 - $1000
+      <input type="checkbox" class="menu-item" data-price="275"> Suspension Tier 1 - $275
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="3000"> Suspension Tier 2 - $3000
+      <input type="checkbox" class="menu-item" data-price="425"> Suspension Tier 2 - $425
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="4000"> Suspension Tier 3 - $4000
+      <input type="checkbox" class="menu-item" data-price="550"> Suspension Tier 3 - $550
       <input type="number" class="quantity" value="1" min="1">
     </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="7000"> Suspension Tier 4 - $7000
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
+
 
 	
 	<h3>Transmission Upgrades</h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="1000"> Transmission Tier 1- $1000
+      <input type="checkbox" class="menu-item" data-price="325"> Transmission Tier 1- $325
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="3000"> Transmission Tier 2 - $3000
+      <input type="checkbox" class="menu-item" data-price="550"> Transmission Tier 2 - $550
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="6000"> Transmission Tier 3 - $6000
+      <input type="checkbox" class="menu-item" data-price="700"> Transmission Tier 3 - $700
       <input type="number" class="quantity" value="1" min="1">
     </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="9500"> Transmission Tier 4 - $9500
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
+
 
 	
 	<h3>Brake Upgrades</h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="1000"> Brakes Tier 1 - $1000
+      <input type="checkbox" class="menu-item" data-price="325"> Brakes Tier 1 - $325
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="3000"> Brakes Tier 2 - $3000
+      <input type="checkbox" class="menu-item" data-price="550"> Brakes Tier 2 - $550
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="7000"> Brakes Tier 3 - $7000
+      <input type="checkbox" class="menu-item" data-price="700"> Brakes Tier 3 - $700
       <input type="number" class="quantity" value="1" min="1">
     </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="10000"> Brakes Tier 3 - $10,000
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
+
 
 	
 	<h3>Turbo</h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="12000"> Turbo - $12,000
+      <input type="checkbox" class="menu-item" data-price="850"> Turbo - $850
       <input type="number" class="quantity" value="1" min="1">
     </label>
 	
 	<h3>Repairs</h3>
  <label>
-      <input type="checkbox" class="menu-item" data-price="500"> Body Repair - $500
+      <input type="checkbox" class="menu-item" data-price="5"> Body Repair - $5
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="1200"> Standard Repair (D-A Class) - $1200
+      <input type="checkbox" class="menu-item" data-price="125"> Standard Repair (D-A Class) - $125
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="2200"> Standard Repair (S Class) - $2200
+      <input type="checkbox" class="menu-item" data-price="350"> Standard Repair (S Class) - $350
       <input type="number" class="quantity" value="1" min="1">
     </label>
     
 
 	
 	<h3>Misc Items</h3>
- <label>
-      <input type="checkbox" class="menu-item" data-price="750"> Lockpick - $750
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="1500"> Adavanced Lockpick - $1500
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="15000"> NOS - $15,000
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="25000"> Harness - $25,000
+
+	<label>
+      <input type="checkbox" class="menu-item" data-price="25"> Basic Repair Kit - $25
       <input type="number" class="quantity" value="1" min="1">
     </label>
 	<label>
-      <input type="checkbox" class="menu-item" data-price="500"> Basic Repair Kit - $500
+      <input type="checkbox" class="menu-item" data-price="20"> Cleaning Kit - $20
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="1000"> Advanced Repair Kit(Free for Leo) - $1000
+      <input type="checkbox" class="menu-item" data-price="25"> Car Polish(1-2 days) - $25
       <input type="number" class="quantity" value="1" min="1">
     </label>
 	<label>
-      <input type="checkbox" class="menu-item" data-price="750"> Cleaning Kit - $750
+      <input type="checkbox" class="menu-item" data-price="32"> Fantastic Wax (3-4 days) - $32
       <input type="number" class="quantity" value="1" min="1">
     </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="1000"> Car Polish(1-2 days) - $1000
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-	<label>
-      <input type="checkbox" class="menu-item" data-price="1500"> Fantastic Wax (3-4 days) - $1500
+
+    	<label>
+      <input type="checkbox" class="menu-item" data-price="0.17"> Materials - $.17
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
@@ -339,8 +313,8 @@
 	<label for="discount">Select Discount:</label>
     <select id="discount" onchange="calculateTotals()">
       <option value="0">No Discount</option>
-      <option value="40">40% Discount (Employee Discount)</option>
-      <option value="30">30% Discount (LEO Discount)</option>
+      <option value="40">30% Discount (Employee Discount)</option>
+      <option value="30">25% Discount (LEO Discount)</option>
     </select>
 	
 	<div style="margin-bottom: 30px;"></div>
@@ -355,7 +329,7 @@
 	
 
     <p>Total: $<span id="total"></span></p>
-    <p>Commission (10%): $<span id="commission"></span></p>
+    <p>Commission (15%): $<span id="commission"></span></p>
 	
 	<div style="margin-bottom: 30px;"></div>
 
