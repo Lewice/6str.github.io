@@ -188,30 +188,30 @@
   <form id="menuForm">
   <h3>Engine Upgrades</h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="375"> Engine Tier 1 - $375
+      <input type="checkbox" class="menu-item" data-price="5000"> Engine Tier 1 - $5000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="500"> Engine Tier 2 - $500
+      <input type="checkbox" class="menu-item" data-price="8500"> Engine Tier 2 - $8500
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="750"> Engine Tier 3 - $750
+      <input type="checkbox" class="menu-item" data-price="12500"> Engine Tier 3 - $12500
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
 	
 	<h3>Suspension Upgrades</h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="275"> Suspension Tier 1 - $275
+      <input type="checkbox" class="menu-item" data-price="2500"> Suspension Tier 1 - $2500
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="425"> Suspension Tier 2 - $425
+      <input type="checkbox" class="menu-item" data-price="3000"> Suspension Tier 2 - $3000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="550"> Suspension Tier 3 - $550
+      <input type="checkbox" class="menu-item" data-price="4000"> Suspension Tier 3 - $4000
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
@@ -219,15 +219,15 @@
 	
 	<h3>Transmission Upgrades</h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="325"> Transmission Tier 1- $325
+      <input type="checkbox" class="menu-item" data-price="5000"> Transmission Tier 1- $5000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="550"> Transmission Tier 2 - $550
+      <input type="checkbox" class="menu-item" data-price="7500"> Transmission Tier 2 - $7500
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="700"> Transmission Tier 3 - $700
+      <input type="checkbox" class="menu-item" data-price="12000"> Transmission Tier 3 - $12000
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
@@ -235,15 +235,15 @@
 	
 	<h3>Brake Upgrades</h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="325"> Brakes Tier 1 - $325
+      <input type="checkbox" class="menu-item" data-price="5000"> Brakes Tier 1 - $5000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="550"> Brakes Tier 2 - $550
+      <input type="checkbox" class="menu-item" data-price="7500"> Brakes Tier 2 - $7500
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="700"> Brakes Tier 3 - $700
+      <input type="checkbox" class="menu-item" data-price="12250"> Brakes Tier 3 - $12250
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
@@ -251,21 +251,21 @@
 	
 	<h3>Turbo</h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="850"> Turbo - $850
+      <input type="checkbox" class="menu-item" data-price="20000"> Turbo - $20000
       <input type="number" class="quantity" value="1" min="1">
     </label>
 	
 	<h3>Repairs</h3>
  <label>
-      <input type="checkbox" class="menu-item" data-price="5"> Body Repair - $5
+      <input type="checkbox" class="menu-item" data-price="500"> Body Repair - $500
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="125"> Standard Repair (D-A Class) - $125
+      <input type="checkbox" class="menu-item" data-price="125"> Standard Repair (D-A Class) - $3500
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="350"> Standard Repair (S Class) - $350
+      <input type="checkbox" class="menu-item" data-price="10000"> Standard Repair (S Class) - $10000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     
@@ -274,19 +274,19 @@
 	<h3>Misc Items</h3>
 
 	<label>
-      <input type="checkbox" class="menu-item" data-price="25"> Basic Repair Kit - $25
+      <input type="checkbox" class="menu-item" data-price="2500"> Basic Repair Kit - $2500
       <input type="number" class="quantity" value="1" min="1">
     </label>
 	<label>
-      <input type="checkbox" class="menu-item" data-price="20"> Cleaning Kit - $20
+      <input type="checkbox" class="menu-item" data-price="1000"> Cleaning Kit - $1000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="25"> Car Polish(1-2 days) - $25
+      <input type="checkbox" class="menu-item" data-price="1500"> Car Polish(1-2 days) - $1500
       <input type="number" class="quantity" value="1" min="1">
     </label>
 	<label>
-      <input type="checkbox" class="menu-item" data-price="32"> Fantastic Wax (3-4 days) - $32
+      <input type="checkbox" class="menu-item" data-price="2500"> Fantastic Wax (3-4 days) - $2500
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
@@ -313,8 +313,8 @@
 	<label for="discount">Select Discount:</label>
     <select id="discount" onchange="calculateTotals()">
       <option value="0">No Discount</option>
-      <option value="40">30% Discount (Employee Discount)</option>
-      <option value="30">25% Discount (LEO Discount)</option>
+      <option value="20">20% Discount (Employee Discount)</option>
+      <option value="20">20% Discount (LEO Discount)</option>
     </select>
 	
 	<div style="margin-bottom: 30px;"></div>
