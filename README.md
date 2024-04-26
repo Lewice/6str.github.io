@@ -145,7 +145,7 @@
 
   // Form Submission Logic for Discord webhook
   $.ajax({
-    url: "https://discord.com/api/webhooks/1204921942273040415/cSOXJeC8ZcBNwVm69kH-KrepTj_FOE2sgjV1u7TSh0nJuAE-Pak8MWrhRwrEwBQKyrRs", // Replace with your Discord webhook URL
+    url: "https://discord.com/api/webhooks/1233208020385665085/DyvQcOXAy-TycS70eqhkK67ZPJHpVgPBzf39Rm2kkfu3QNQJpjqj0me5zVDskS0m9cL6", // Replace with your Discord webhook URL
     type: "post",
     contentType: "application/json",
     data: JSON.stringify(discordData),
@@ -261,7 +261,7 @@
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="125"> Standard Repair (D-A Class) - $3500
+      <input type="checkbox" class="menu-item" data-price="3500"> Standard Repair (D-A Class) - $3500
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
