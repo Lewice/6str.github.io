@@ -313,8 +313,9 @@
 	<label for="discount">Select Discount:</label>
     <select id="discount" onchange="calculateTotals()">
       <option value="0">No Discount</option>
-      <option value="20">20% Discount (Employee Discount)</option>
-      <option value="20">20% Discount (LEO Discount)</option>
+      <option value="15">15% Discount (Employee Discount)</option>
+      <option value="15">15% Discount (LEO Discount)</option>
+      <option value="50">Hydra 50% Discount</option>
     </select>
 	
 	<div style="margin-bottom: 30px;"></div>
