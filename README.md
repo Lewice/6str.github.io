@@ -188,15 +188,15 @@
   <form id="menuForm">
   <h3>Engine Upgrades</h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="5000"> Engine Tier 1 - $5000
+      <input type="checkbox" class="menu-item" data-price="3500"> Engine Tier 1 - $3500
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="8500"> Engine Tier 2 - $8500
+      <input type="checkbox" class="menu-item" data-price="5500"> Engine Tier 2 - $5500
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="12500"> Engine Tier 3 - $12500
+      <input type="checkbox" class="menu-item" data-price="8000"> Engine Tier 3 - $8000
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
@@ -219,15 +219,15 @@
 	
 	<h3>Transmission Upgrades</h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="5000"> Transmission Tier 1- $5000
+      <input type="checkbox" class="menu-item" data-price="5000"> Transmission Tier 1- $3500
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="7500"> Transmission Tier 2 - $7500
+      <input type="checkbox" class="menu-item" data-price="5500"> Transmission Tier 2 - $5500
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="12000"> Transmission Tier 3 - $12000
+      <input type="checkbox" class="menu-item" data-price="8250"> Transmission Tier 3 - $8250
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
@@ -235,15 +235,15 @@
 	
 	<h3>Brake Upgrades</h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="5000"> Brakes Tier 1 - $5000
+      <input type="checkbox" class="menu-item" data-price="3000"> Brakes Tier 1 - $3000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="7500"> Brakes Tier 2 - $7500
+      <input type="checkbox" class="menu-item" data-price="5000"> Brakes Tier 2 - $5000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="12250"> Brakes Tier 3 - $12250
+      <input type="checkbox" class="menu-item" data-price="7000"> Brakes Tier 3 - $7000
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
@@ -251,21 +251,21 @@
 	
 	<h3>Turbo</h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="20000"> Turbo - $20000
+      <input type="checkbox" class="menu-item" data-price="12000"> Turbo - $12000
       <input type="number" class="quantity" value="1" min="1">
     </label>
 	
 	<h3>Repairs</h3>
  <label>
-      <input type="checkbox" class="menu-item" data-price="500"> Body Repair - $500
+      <input type="checkbox" class="menu-item" data-price="750"> Body Repair - $750
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="3500"> Standard Repair (D-A Class) - $3500
+      <input type="checkbox" class="menu-item" data-price="1750"> Standard Repair (D-A Class) - $1750
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="10000"> Standard Repair (S Class) - $10000
+      <input type="checkbox" class="menu-item" data-price="2500"> Standard Repair (S Class) - $2500
       <input type="number" class="quantity" value="1" min="1">
     </label>
     
@@ -291,7 +291,7 @@
     </label>
 
     	<label>
-      <input type="checkbox" class="menu-item" data-price="0.17"> Materials - $.17
+      <input type="checkbox" class="menu-item" data-price="1"> Materials - $1
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
