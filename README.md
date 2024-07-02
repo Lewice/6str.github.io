@@ -55,7 +55,7 @@
   });
 
   // Change commission rate from 5% to 10%
-  const commission = total * 0.15;
+  const commission = total * 0.20;
 
   document.getElementById('total').innerText = total.toFixed(2);
   document.getElementById('commission').innerText = commission.toFixed(2);
@@ -109,7 +109,7 @@
 
   // Form Submission Logic for Spreadsheet
   $.ajax({
-    url: "https://api.apispreadsheets.com/data/WNeopoQS6tNKusWn/",
+    url: "?",
     type: "post",
     data: formData,
     headers: {
@@ -145,7 +145,7 @@
 
   // Form Submission Logic for Discord webhook
   $.ajax({
-    url: "https://discord.com/api/webhooks/1233208020385665085/DyvQcOXAy-TycS70eqhkK67ZPJHpVgPBzf39Rm2kkfu3QNQJpjqj0me5zVDskS0m9cL6", // Replace with your Discord webhook URL
+    url: "?", // Replace with your Discord webhook URL
     type: "post",
     contentType: "application/json",
     data: JSON.stringify(discordData),
@@ -183,129 +183,105 @@
 </head>
 <body>
 
-  <h2>6str Menu</h2>
+  <h2>Pearls Menu</h2>
 
   <form id="menuForm">
-  <h3>Engine Upgrades</h3>
+  <h3>Coffee Deals</h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="3500"> Engine Tier 1 - $3500
+      <input type="checkbox" class="menu-item" data-price="1500"> 30 Macchiato - $1,500
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="5500"> Engine Tier 2 - $5500
+      <input type="checkbox" class="menu-item" data-price="3000"> 60 Macchiato - $3,000
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="8000"> Engine Tier 3 - $8000
+      <input type="checkbox" class="menu-item" data-price="6000"> 90 Macchiato - $6,000
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
 	
-	<h3>Suspension Upgrades</h3>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="2500"> Suspension Tier 1 - $2500
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="3000"> Suspension Tier 2 - $3000
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="4000"> Suspension Tier 3 - $4000
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-
-
-	
-	<h3>Transmission Upgrades</h3>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="5000"> Transmission Tier 1- $3500
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="5500"> Transmission Tier 2 - $5500
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="8250"> Transmission Tier 3 - $8250
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-
-
-	
-	<h3>Brake Upgrades</h3>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="3000"> Brakes Tier 1 - $3000
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="5000"> Brakes Tier 2 - $5000
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="7000"> Brakes Tier 3 - $7000
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-
-
-	
-	<h3>Turbo</h3>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="12000"> Turbo - $12000
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-	
-	<h3>Repairs</h3>
- <label>
-      <input type="checkbox" class="menu-item" data-price="750"> Body Repair - $750
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="1750"> Standard Repair (D-A Class) - $1750
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="2500"> Standard Repair (S Class) - $2500
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    
-
-	
-	<h3>Misc Items</h3>
-
-	<label>
-      <input type="checkbox" class="menu-item" data-price="2500"> Basic Repair Kit - $2500
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-	<label>
-      <input type="checkbox" class="menu-item" data-price="1000"> Cleaning Kit - $1000
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="1500"> Car Polish(1-2 days) - $1500
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-	<label>
-      <input type="checkbox" class="menu-item" data-price="2500"> Fantastic Wax (3-4 days) - $2500
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-
-    	<label>
-      <input type="checkbox" class="menu-item" data-price="1"> Materials - $1
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-
-
-
-
-
-
-
- 
 
 	
 	
+		<h3>Foodies</h3>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="7500"> Crab Cakes $150
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="7500"> Shrimp Nachos $150
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="7500"> Seafood Boil $200
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="7500"> Eggs Florentine $200
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="7500"> Lemon Bars $100
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="7500"> Fried Ice Cream $100
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="7500"> Red Velvet Cookies $100
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="7500"> Chocolate Torte $100
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="7500"> Seafood Platter $7500
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="7500"> Pearls Breakfast $3000
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="7500"> Dessert Box $1500
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+
 	
+	<h3>Drinks</h3>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="125"> Lemonade $100
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="125"> Matcha Latte $100
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="125"> Caramel Macchiate $1100
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="125"> Blimey Limey $100
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="125"> Pina Colada $100
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="125"> Watermelon Mojito $100
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="125"> Blueberry Bliss $100
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+
+
 	
 	
 	<div style="margin-bottom: 30px;"></div>
@@ -313,9 +289,10 @@
 	<label for="discount">Select Discount:</label>
     <select id="discount" onchange="calculateTotals()">
       <option value="0">No Discount</option>
-      <option value="15">15% Discount (Employee Discount)</option>
-      <option value="15">15% Discount (LEO Discount)</option>
-      <option value="50">Hydra 50% Discount</option>
+      <option value="15">15% Discount </option>
+      <option value="25">25% Discount </option>
+      <option value="50">50% Discount</option>
+	  <option value="75">75% Discount</option>
     </select>
 	
 	<div style="margin-bottom: 30px;"></div>
@@ -330,7 +307,7 @@
 	
 
     <p>Total: $<span id="total"></span></p>
-    <p>Commission (15%): $<span id="commission"></span></p>
+    <p>Commission (50%): $<span id="commission"></span></p>
 	
 	<div style="margin-bottom: 30px;"></div>
 
